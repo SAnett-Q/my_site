@@ -1,0 +1,51 @@
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color:white;
+    border: 1px dashed black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* .btn:hover {
+    background-color: rgba(235, 209, 168, 0.5);
+} */
+
+.color{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px dashed black;
+    border-radius: 50%;
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.red{
+    background-color: rgb(151, 0, 0);
+}
+
+.orange{
+    background-color: rgb(182, 51, 3);
+}
+
+.yellow{
+    background-color: rgb(255, 157, 0);
+}
+
+.green{
+    background-color: rgb(46, 117, 7);
+}
+
+.active{
+    background-color:grey;
+}
